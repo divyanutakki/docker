@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk
-
+#comment added
 RUN apt-get update && apt-get install -y git curl && rm -rf /var/lib/apt/lists/*
 
 ARG user=jenkins
